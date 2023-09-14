@@ -1,35 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <style>
+        header{
+            background-color: rgb(255, 205, 239);
+            color: rgb(17, 17, 17);
+        }
+        .name,.contact,.email{
+            margin-right: 180px;
+        }
+        .header-icons{
+            margin-right: 30px;
+        }
+        .home,.tech,.Projectdetails,.education,.other,.personal{
+            margin-right: 80px;
+        }
+       
+        
+        .google,.instagram,.facebook,.linkdein{ 
+            margin-right: 10px;
+        }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="assets/favicon.png.svg" type="image/x-icon">
     
-    <i class="fa fa-user" aria-hidden="true"></i>
-    <span>pathan shaista</span>
-    &nbsp;&nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span>+912354356227</span>
-    &nbsp;&nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i>
-    <span>pathanshaista46@gmail.com</span>
-<br>
-<br>
-    <iframe width="900px" height="500px"></iframe>
+    
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <i class="header-icons fa fa-user" aria-hidden="true"></i><span class="name">pathan shaista</span> 
+        <i class="header-icons fa fa-phone-square" aria-hidden="true"></i><span class="contact">+91 8964 25 3647</span>
+        <i class="header-icons fa fa-envelope" aria-hidden="true"></i> <span class="email">pathanshaista46@gmail.com</span>
+    </header>
+    <br />
+    <!-- Navigation section  -->
+    <nav>
+        <a class="home" href="home.html" target="MyFrame"> HOME</a> 
+        <a class="tech" href="techStack.html" target="MyFrame">TECH STACK</a> 
+        <a class="project" href="projectDetails.html" target="MyFrame">ProjectDetails</a> 
+       <a class="education" href="education.html" target="MyFrame"></a>
+        <a class="other" href="other.html" target="MyFrame">OTHER</a>
+        <a class="personal" href="personalDetails.html" target="MyFrame">PERSONAL </a>
+    </nav>
+    <br /> 
+    </nav>
+    <br />
+
+    <!-- main section -->
+    <iframe src="home.html" width="900px" height="500px"  name="MyFrame"></iframe>
+
+
+
+    
+
+    
+    <!-- Footer section  -->
     <br>
-    <strong> Follow me</strong>
-    &nbsp;&nbsp;
-    <a href="https://in.linkedin.com/" target="_blank"> <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
-     &nbsp; &nbsp;
-     <a href="https://www.google.co.in/" target="_blank"> <i class="fa fa-2x fa-google" aria-hidden="true"></i></a>
-     &nbsp; &nbsp;
-     <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
-    &nbsp;  &nbsp;   
-    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a>
-    &nbsp; &nbsp; 
-   
+    <br>
+    <footer >
+        <label class="follow" for=""> <strong> Follow me </strong> </label> 
+        <a class="linkdein" href="https://in.linkedin.com/">
+            <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+        </a> 
+        <a class="google" https://www.google.com/">
+            <i class="fa fa-2x fa-google" aria-hidden="true"></i></a>
+        <a class="instagram" href="https://www.instagram.com/">
+            <i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+        <a class="facebook" href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+        </a>
+    </footer>
+
 </body>
+
 </html>
+     
