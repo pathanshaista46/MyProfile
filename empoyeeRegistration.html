@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Registration</title>
+    <link rel="shortcut icon" href="image/download.jpg" type="image/x-icon" />
+    <style>
+      #formHeading:hover {
+        color: rgb(222, 81, 187);
+        background-color: rgb(215, 230, 170);
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="formHeading">Employee Registration Form</h2>
+    <fieldset>
+      <legend>Employee Registration Form</legend>
+
+      <table>
+        <tbody>
+          <form>
+            <tr>
+              <td>
+                <label for="">First Name</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  maxlength="12"
+                  placeholder="Only first name"
+                  autofocus
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Last Name</label>
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Mobile</label>
+              </td>
+              <td>
+                <input type="number" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Email</label>
+              </td>
+              <td>
+                <input type="email" required placeholder="Ex.abc@gmail.com" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Password</label>
+              </td>
+              <td>
+                <input type="password" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Select Gender</label>
+              </td>
+              <td>
+                <!-- name Attribute is used to select only one radio button at a time-->
+                <input type="radio" name="gender" /> <label for="">Male</label>
+                <input type="radio" name="gender" />
+                <label for="">Female</label>
+                <input type="radio" name="gender" />
+                <label for="">Others</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Select your Tech Stack</label>
+              </td>
+              <td>
+                <input type="checkbox" /> <label for="">MySQL</label>
+                <input type="checkbox" /> <label for="">Java</label>
+                <input type="checkbox" /> <label for="">HTML</label>
+                <input type="checkbox" /> <label for="">CSS</label>
+                <input type="checkbox" /> <label for="">Bootstrap</label>
+                <input type="checkbox" /> <label for="">JavaScript</label>
+                <input type="checkbox" /> <label for="">React</label>
+                <input type="checkbox" /> <label for="">Angular</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">Upload Mark sheets</label></td>
+              <td><input type="file" multiple /></td>
+            </tr>
+
+            <tr>
+              <td><label for="">Upload Profile Photo</label></td>
+              <td><input type="file" /></td>
+            </tr>
+            <tr>
+              <td><label for="">Date of Birth</label></td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Select State</label>
+              </td>
+              <td>
+                <select>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Madhyapradesh">Madhyapradesh</option>
+                  <option value="Tamilnadu">Tamilnadu</option>
+                  <option value="Manipur">Manipur</option>
+                  <option value="Rajasthan">Rajasthan</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Aandhrapradesh">Aandhrapradesh</option>
+                  <option value="JammuKashmir">JammuKashmir</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">Select State</label>
+              </td>
+
+              <td>
+                <input type="text" value="India" readonly disabled />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="">Permanent Address</label>
+              </td>
+              <td>
+                <textarea rows="10" cols="30"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="reset" name="reset" />
+              </td>
+              <td>
+                <input type="submit" name="submit" />
+              </td>
+            </tr>
+          </form>
+        </tbody>
+      </table>
+    </fieldset>
+  </body>
+</html>
